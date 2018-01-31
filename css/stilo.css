@@ -25,7 +25,7 @@ html {
 
 #divtel {
     width: 100%;
-    background-color: rgb(83, 95, 100);
+    background-color: rgb(57, 53, 53);
     line-height: 60px;
     font-size: 14px;
     color: #FFF;
@@ -36,7 +36,28 @@ html {
 
 #divcompartilhar {
     width: 100%;
-    background-color: #5d8faf;
+    background-color: #ffffff;
+    line-height: 60px;
+    font-size: 14px;
+    color: #0a0909;
+    float: left;
+    text-align: center;
+    
+}
+
+.divpropaganda {
+    width: 100%;
+    background-color: #ffffff;
+    line-height: 60px;
+    font-size: 14px;
+    color: #030303;
+    float: left;
+    text-align: center;
+
+}
+.divface {
+    width: 100%;
+    background-color: #4267B2;
     line-height: 60px;
     font-size: 14px;
     color: #FFF;
@@ -44,13 +65,12 @@ html {
     text-align: center;
 
 }
-
-.propaganda {
+.divinsta {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #b12c2c;
     line-height: 60px;
     font-size: 14px;
-    color: #030303;
+    color: #FFF;
     float: left;
     text-align: center;
 
