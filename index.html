@@ -2,15 +2,19 @@
 <html>
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113411563-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-113411563-3');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113411563-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113411563-3');
+    </script>
 
     <meta charset="UTF-8">
     <meta name="language" content="pt-br">
@@ -21,8 +25,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>NEGA LÚ</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stilo.css">
-
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -33,37 +37,69 @@
 </head>
 
 <body>
+    <div class="container-fluid divcenter">
 
-    <img src="img/logo.jpeg" alt="logotipo" class="logo">
+        <img src="img/logo.jpeg" class="img-fluid logo" alt="Responsive image">
 
-    <a href="https://goo.gl/RVgTaj" target="_blank">
-        <div id="divzapzap">ORÇAMENTOS VIA WHATSAPP
+        <div class="divconteudo">
+            <a href="https://goo.gl/RVgTaj" target="_blank">
+                <div class="btn btn-success divlinks zapzapcolor">WhatsApp orçamentos
+                </div>
+            </a>
         </div>
-    </a>
 
-    <a href="http://fb.me/negaluconfeitariagourmet">
-        <div class="divface">FACEBOOK
+
+        <div class="divconteudo">
+            <a href="https://www.instagram.com/negaluconfeitariagourmet/" target="_blank">
+                <div class="btn btn-danger divlinks instacolor">Instagram
+                </div>
+            </a>
         </div>
-    </a>
 
-    <a href="https://www.instagram.com/negaluconfeitariagourmet/">
-        <div class="divinsta">INSTAGRAM
+        <div class="divconteudo">
+            <a href="http://fb.me/negaluconfeitariagourmet" target="_blank">
+                <div class="btn btn-primary divlinks facecolor">Facebook
+                </div>
+            </a>
         </div>
-    </a>
-
-    <a href="tel:062984298580">
-        <div id="divtel">TELEFONAR
+<!--
+        <div class="divconteudo">
+            <a href="linklocalizacao" target="_blank">
+                <div class="btn btn-info divlinks">Localização
+                </div>
+            </a>
         </div>
-    </a>
-
-    <a href='whatsapp://send?text=*Cartão de Visitas Mobile - Nega Lú Confeitaria Gourmet:* http://negalu.meucvm.com.br'>
-        <div id="divcompartilhar">COMPARTILHAR NEGA LÚ
+-->
+        <div class="divconteudo">
+            <a href="tel:062984298580" target="_blank">
+                <div class="btn btn-secondary divlinks sitetelyoutubecomp">Telefone</div>
+            </a>
         </div>
-    </a>
+<!--
+        <div class="divconteudo">
+            <a href="link" target="_blank">
+                <div class="btn btn-secondary divlinks sitetelyoutubecomp">Site</div>
+            </a>
+        </div>
 
-    <a href="http://cartaodevisitasmobile.com.br" target="_blank">
-        <div class="divpropaganda">by cartaodevisitasmobile.com.br</div>
-    </a>
+        <div class="divconteudo">
+            <a href="link" target="_blank">
+                <div class="btn btn-secondary divlinks sitetelyoutubecomp">Youtube</div>
+            </a>
+        </div>
+-->
+        <div class="divconteudo">
+            <a href='whatsapp://send?text=*Cartão de Visitas Mobile - Nega Lú:* http://negalu.meucvm.com.br'>
+                <div class="btn btn-secondary divlinks sitetelyoutubecomp">Compartilhar Nega Lú</div>
+            </a>
+        </div>
+
+        <div class="divpropaganda">
+            <a href="http://www.cartaodevisitasmobile.com.br" id="link" target="_blank">by cartaodevisitasmobile.com.br</a>
+
+        </div>
+    </div>
+
 
 </body>
 

@@ -1,77 +1,47 @@
-body,
-html {
-    font-family: Arial, Tahoma, sans-serif;
-    text-align: center;
-}
-
 .logo {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-bottom: 5px;
-    padding-top: 5px;
+    width: 550px;
 }
 
-#divzapzap {
+.divlinks {
     width: 100%;
-    background-color: #39890f;
-    line-height: 60px;
-    font-size: 14px;
-    color: #FFF;
-    float: left;
+    max-width: 400px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.divcenter {
     text-align: center;
 }
 
-
-#divtel {
-    width: 100%;
-    background-color: rgb(57, 53, 53);
-    line-height: 60px;
-    font-size: 14px;
-    color: #FFF;
-    float: left;
-    text-align: center;
-
-}
-
-#divcompartilhar {
-    width: 100%;
-    background-color: #f4f4f4;
-    line-height: 60px;
-    font-size: 14px;
-    color: #0a0909;
-    float: left;
-    text-align: center;
-    
+.divconteudo {
+    margin: 10px;
 }
 
 .divpropaganda {
-    width: 100%;
+    margin-top: 50px;
+
+}
+
+#link {
+    color: #000000;
+}
+
+body {
     background-color: #ffffff;
-    line-height: 60px;
-    font-size: 14px;
-    color: #030303;
-    float: left;
-    text-align: center;
-
 }
-.divface {
-    width: 100%;
-    background-color: #4267B2;
-    line-height: 60px;
-    font-size: 14px;
-    color: #FFF;
-    float: left;
-    text-align: center;
 
+.sitetelyoutubecomp {
+    background-color: rgb(57, 53, 53);
 }
-.divinsta {
-    width: 100%;
+
+.zapzapcolor {
+    background-color: #39890f;
+}
+
+.instacolor {
     background-color: #b12c2c;
-    line-height: 60px;
-    font-size: 14px;
-    color: #FFF;
-    float: left;
-    text-align: center;
+}
 
+.facecolor {
+    background-color: #4267B2;
 }
